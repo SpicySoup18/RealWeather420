@@ -1,4 +1,4 @@
-import requests
+import requests #very important comment
 import json
 from PIL import Image, ImageFont, ImageDraw
 from datetime import date
@@ -63,3 +63,4 @@ def countryfunc(us_list, country):
     image.save(country + "cities_pd9.png")
 
 countryfunc([us_list], "us")#
+#
