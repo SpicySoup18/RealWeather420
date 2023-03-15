@@ -1,4 +1,4 @@
-import requests #very important comment
+import requests #very important comment 2
 import json
 from PIL import Image, ImageFont, ImageDraw
 from datetime import date
